@@ -106,6 +106,15 @@
   color: #333;
 }
 
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
 /* Margin */
 .my-1 {
   margin: 1rem 0;
