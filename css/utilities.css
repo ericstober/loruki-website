@@ -1,4 +1,4 @@
-/* Utilities */
+/* Formatting */
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -6,6 +6,27 @@
   padding: 0 40px;
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Card */
 .card {
   background-color: #fff;
   color: #333;
@@ -15,6 +36,7 @@
   margin: 10px;
 }
 
+/* Button */
 .btn {
   display: inline-block;
   padding: 10px 30px;
@@ -38,24 +60,50 @@
   text-align: center;
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+/* Text sizes */
+.lead {
+  font-size: 20px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+.sm {
+  font-size: 1rem;
 }
 
-.grid-3 {
-  grid-template-columns: repeat(3, 1fr);
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+/* Backgrounds & Colored Buttons */
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
 }
 
 /* Margin */
