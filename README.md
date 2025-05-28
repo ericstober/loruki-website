@@ -38,7 +38,3 @@ cd loruki-website
 ```
 
 3. Open the `index.html` file in your web browser or use a local development server.
-
-## License
-
-This project is licensed under the MIT License.
